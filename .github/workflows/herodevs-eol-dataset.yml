@@ -1,0 +1,28 @@
+## .github/workflows/herodevs-eol-scan.yml
+name: HeroDevs EOL Scan
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+
+      - run: echo # Prepare environment, install tooling, perform setup, etc.
+
+      - name: Run EOL Scan
+        run: mkdir -p .herodevs/scans && npx --yes @herodevs/cli@beta scan eol --json > .herodevs/scans/scan-${{ github.event.repository.updated_at}}.json
+
+      - uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: EOL Scan
