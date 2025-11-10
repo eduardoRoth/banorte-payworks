@@ -1,0 +1,1930 @@
+{
+  "id": "a9a3328f-0e22-499a-92c7-e338dc4b406b",
+  "createdOn": "2025-11-10T20:47:28.828Z",
+  "metadata": {
+    "totalComponentsCount": 116,
+    "unknownComponentsCount": 34,
+    "totalUniqueComponentsCount": 116
+  },
+  "components": [
+    {
+      "purl": "pkg:npm/inherits@2.0.4",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/util@0.12.5",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-callable@1.2.7",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/safe-buffer@5.2.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/json-stringify-safe@5.0.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/request@2.88.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [
+          {
+            "cveId": "CVE-2023-28155",
+            "cvssScore": "6.1",
+            "publishedAt": "2023-03-16T15:30:19"
+          }
+        ],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.unpatched_cve_in_latest_release_line",
+          "version.release_line_deprecated",
+          "component.marked_deprecated"
+        ],
+        "releasedAt": "2020-02-11T16:35:36.122Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2011-07-21T21:10:38.897Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/aws-sign2@0.7.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/caseless@0.12.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/combined-stream@1.0.8",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/delayed-stream@1.0.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/extend@3.0.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/forever-agent@0.6.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/form-data@2.3.3",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/asynckit@0.4.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/mime-types@2.1.35",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/mime-db@1.52.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/har-validator@5.1.5",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.marked_deprecated",
+          "version.release_line_deprecated"
+        ],
+        "releasedAt": "2020-07-30T04:42:33.615Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2017-03-14T20:50:02.584Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/ajv@6.12.6",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/fast-deep-equal@3.1.3",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/fast-json-stable-stringify@2.1.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/json-schema-traverse@0.4.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/uri-js@4.4.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/har-schema@2.0.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/http-signature@1.2.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/assert-plus@1.0.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/jsprim@1.4.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/extsprintf@1.3.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/json-schema@0.4.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/verror@1.10.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/core-util-is@1.0.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/asn1@0.2.6",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/safer-buffer@2.1.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/bcrypt-pbkdf@1.0.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/tweetnacl@0.14.5",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/dashdash@1.14.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/ecc-jsbn@0.1.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/jsbn@0.1.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/getpass@0.1.7",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-typedarray@1.0.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/isstream@0.1.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/oauth-sign@0.9.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/performance-now@2.1.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/qs@6.5.3",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/tough-cookie@2.5.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [
+          {
+            "cveId": "CVE-2023-26136",
+            "cvssScore": "6.5",
+            "publishedAt": "2023-07-01T06:30:16"
+          }
+        ],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.unpatched_cve_in_version_release_line",
+          "version.stale_release_line"
+        ],
+        "releasedAt": "2018-11-26T22:58:46.850Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/tough-cookie@4.0.0",
+          "version": "4.0.0",
+          "releasedAt": "2020-03-19T19:20:25.746Z"
+        },
+        "currentMajorReleasedAt": "2015-06-10T22:13:55.825Z",
+        "daysBehindNextSupported": 1743,
+        "majorVersionsFromNextSupported": 2
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/tunnel-agent@0.6.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/uuid@3.4.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.release_line_deprecated",
+          "version.stale_release_line"
+        ],
+        "releasedAt": "2020-01-16T21:05:38.628Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/uuid@9.0.0",
+          "version": "9.0.0",
+          "releasedAt": "2022-09-05T20:03:54.869Z"
+        },
+        "currentMajorReleasedAt": "2016-11-18T05:55:37.542Z",
+        "daysBehindNextSupported": 2117,
+        "majorVersionsFromNextSupported": 6
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/debug@2.6.9",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/ms@2.0.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/moment@2.30.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.unpatched_cve_in_latest_release_line"
+        ],
+        "releasedAt": "2023-12-27T10:38:43.272Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2013-02-08T19:13:31.027Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/glob@3.2.11",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/minimatch@0.3.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/lru-cache@2.7.3",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/sigmund@1.0.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/hasown@2.0.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/function-bind@1.1.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/es-errors@1.3.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/set-function-length@1.2.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/define-data-property@1.1.4",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/has-property-descriptors@1.0.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/has-tostringtag@1.0.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/available-typed-arrays@1.0.7",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/punycode@2.3.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/sshpk@1.18.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.unpatched_cve_in_latest_release_line"
+        ],
+        "releasedAt": "2023-10-19T17:23:11.379Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2015-09-19T04:48:17.976Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/aws4@1.13.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/co@4.6.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/es-define-property@1.0.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/gopd@1.2.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/call-bound@1.0.4",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/call-bind-apply-helpers@1.0.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/get-intrinsic@1.3.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/es-object-atoms@1.1.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/get-proto@1.0.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/dunder-proto@1.0.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/has-symbols@1.1.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/math-intrinsics@1.1.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:github/actions/checkout@v5",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/debug@2.2.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/ms@0.7.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/mkdirp@0.5.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/minimist@0.0.8",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/call-bind@1.0.8",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-typed-array@1.1.15",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/which-typed-array@1.1.19",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/possible-typed-array-names@1.1.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/for-each@0.3.5",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/safe-regex-test@1.1.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-regex@1.2.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/psl@1.15.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-arguments@1.2.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-generator-function@1.1.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/generator-function@2.0.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/mkdirp@0.3.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/is-generator@1.0.3",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:github/actions/setup-node@v6",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/formatio@1.1.1",
+      "metadata": {
+        "eolAt": "2014-07-29T17:29:58.131Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.maintainer_attested_is_eol",
+          "component.repo_archived",
+          "component.marked_deprecated",
+          "version.release_line_deprecated"
+        ],
+        "releasedAt": "2014-07-29T17:29:58.131Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/formatio@1.2.0",
+          "version": "1.2.0",
+          "releasedAt": "2016-02-17T07:08:00.593Z"
+        },
+        "currentMajorReleasedAt": "2013-09-16T22:36:01.678Z",
+        "daysBehindNextSupported": 883,
+        "majorVersionsFromNextSupported": 0
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:github/stefanzweifel/git-auto-commit-action@v7",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/joi@8.4.2",
+      "metadata": {
+        "eolAt": "2016-06-12T14:52:25.903Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.stale_release_line",
+          "component.maintainer_attested_is_eol",
+          "version.release_line_deprecated"
+        ],
+        "releasedAt": "2016-06-12T14:52:25.903Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/joi@17.1.1",
+          "version": "17.1.1",
+          "releasedAt": "2020-07-16T08:35:30.564Z"
+        },
+        "currentMajorReleasedAt": "2016-02-14T20:57:48.042Z",
+        "daysBehindNextSupported": 1613,
+        "majorVersionsFromNextSupported": 9
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/hoek@4.3.1",
+      "metadata": {
+        "eolAt": "2023-12-26T09:22:35.705Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.release_line_deprecated",
+          "component.marked_deprecated",
+          "component.maintainer_attested_is_eol"
+        ],
+        "releasedAt": "2023-12-26T09:22:35.705Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/hoek@6.0.3",
+          "version": "6.0.3",
+          "releasedAt": "2018-11-11T02:30:31.304Z"
+        },
+        "currentMajorReleasedAt": "2016-04-25T22:50:42.854Z",
+        "daysBehindNextSupported": 929,
+        "majorVersionsFromNextSupported": 2
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/isemail@2.2.1",
+      "metadata": {
+        "eolAt": "2024-10-02T03:38:27.000Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.repo_archived"
+        ],
+        "releasedAt": "2016-07-28T18:44:29.909Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2015-11-01T23:47:20.442Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/topo@2.1.1",
+      "metadata": {
+        "eolAt": "2024-01-01T12:48:58.697Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.marked_deprecated",
+          "version.release_line_deprecated",
+          "component.maintainer_attested_is_eol"
+        ],
+        "releasedAt": "2024-01-01T12:48:58.697Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2015-11-01T20:11:27.386Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/co-mocha@1.2.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/mocha@2.5.3",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/commander@2.3.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.stale_release_line"
+        ],
+        "releasedAt": "2014-07-16T02:14:43.461Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/commander@12.0.0",
+          "version": "12.0.0",
+          "releasedAt": "2024-02-03T09:44:33.948Z"
+        },
+        "currentMajorReleasedAt": "2013-07-19T00:55:45.073Z",
+        "daysBehindNextSupported": 3851,
+        "majorVersionsFromNextSupported": 10
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/diff@1.4.0",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [
+          {
+            "cveId": "GHSA-h6ch-v84p-w6p9",
+            "cvssScore": null,
+            "publishedAt": "2019-06-13T18:58:54"
+          }
+        ],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.stale_release_line"
+        ],
+        "releasedAt": "2015-05-06T14:31:31.570Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/diff@6.0.0",
+          "version": "6.0.0",
+          "releasedAt": "2024-09-02T19:04:04.049Z"
+        },
+        "currentMajorReleasedAt": "2011-03-29T17:19:02.881Z",
+        "daysBehindNextSupported": 4906,
+        "majorVersionsFromNextSupported": 5
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/escape-string-regexp@1.0.2",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/growl@1.9.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [
+          {
+            "cveId": "CVE-2017-16042",
+            "cvssScore": "9.8",
+            "publishedAt": "2018-06-08T12:43:43"
+          }
+        ],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.unpatched_cve_in_latest_release_line"
+        ],
+        "releasedAt": "2016-02-21T12:06:13.693Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2011-03-18T18:48:55.778Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/jade@0.26.3",
+      "metadata": {
+        "eolAt": "2012-06-25T16:41:15.480Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.marked_deprecated",
+          "component.maintainer_attested_is_eol",
+          "version.maintainer_attested_is_eol",
+          "version.release_line_deprecated"
+        ],
+        "releasedAt": "2012-06-25T16:41:15.480Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2010-12-19T22:37:03.716Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/commander@0.6.1",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "version.stale_release_line"
+        ],
+        "releasedAt": "2012-06-01T19:23:51.854Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/commander@12.0.0",
+          "version": "12.0.0",
+          "releasedAt": "2024-02-03T09:44:33.948Z"
+        },
+        "currentMajorReleasedAt": "2011-08-14T22:17:52.365Z",
+        "daysBehindNextSupported": 4555,
+        "majorVersionsFromNextSupported": 12
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/supports-color@1.2.0",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/to-iso-string@0.0.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.marked_deprecated",
+          "version.release_line_deprecated"
+        ],
+        "releasedAt": "2015-05-13T02:23:10.898Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2015-05-13T02:23:10.898Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/git-hooks@1.1.10",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/minami@1.2.3",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/sinon@1.17.7",
+      "metadata": {
+        "eolAt": "2016-12-31T03:26:14.580Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.maintainer_attested_is_eol",
+          "version.maintainer_attested_is_eol",
+          "version.stale_release_line",
+          "version.release_line_deprecated"
+        ],
+        "releasedAt": "2016-12-31T03:26:14.580Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": {
+          "purl": "pkg:npm/sinon@19.0.0",
+          "version": "19.0.0",
+          "releasedAt": "2024-09-13T00:10:27.235Z"
+        },
+        "currentMajorReleasedAt": "2010-12-20T21:03:03.526Z",
+        "daysBehindNextSupported": 5015,
+        "majorVersionsFromNextSupported": 18
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/samsam@1.1.2",
+      "metadata": {
+        "eolAt": "2014-12-11T20:38:33.306Z",
+        "isEol": true,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [
+          "component.maintainer_attested_is_eol",
+          "version.release_line_deprecated",
+          "component.marked_deprecated"
+        ],
+        "releasedAt": "2014-12-11T20:38:33.306Z",
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": "2013-09-16T22:34:56.978Z",
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/lolex@1.3.2",
+      "metadata": {
+        "eolAt": null,
+        "isEol": false,
+        "cveStats": [],
+        "ecosystem": "npm",
+        "eolReasons": [],
+        "releasedAt": null,
+        "isNesPackage": false,
+        "nextSupportedVersion": null,
+        "currentMajorReleasedAt": null,
+        "daysBehindNextSupported": null,
+        "majorVersionsFromNextSupported": null
+      },
+      "nesRemediation": {
+        "remediations": []
+      }
+    },
+    {
+      "purl": "pkg:npm/banorte-payworks@0.2.1",
+      "metadata": null,
+      "nesRemediation": {
+        "remediations": []
+      }
+    }
+  ],
+  "page": 1,
+  "totalRecords": 116
+}
